@@ -1,0 +1,109 @@
+/* Global Styles */
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf8f5;
+    color: #4a4a4a;
+}
+header {
+    background: linear-gradient(135deg, #e3b9bc, #f5d3d4);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px 60px;
+    position: relative;
+}
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: 300;
+}
+/* Logo Home */
+.home-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background-image: url('https://svgshare.com/i/uHo.svg'); /* Contoh ikon rumah transparan */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+/* Welcome Text */
+.welcome-text {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fdf8f5;
+    background: rgba(181, 84, 96, 0.8);
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: inline-block;
+}
+/* Foto Profil */
+.profile-picture {
+    margin: 30px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #b55460; /* Bingkai dengan warna #b55460 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Efek bayangan untuk memberikan kesan 3D */
+}
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Memastikan gambar mengisi area dan terpotong sesuai bingkai */
+}
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+/* Menu Styles */
+.icon-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.icon {
+    width: 150px;
+    height: 60px;
+    background-color: #b55460;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.icon:hover {
+    transform: scale(1.1);
+    background-color: #d66a75;
+}
+.content-section {
+    display: none;
+    padding: 20px;
+    background: #f5d3d4;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+footer {
+    background-color: #b55460;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
